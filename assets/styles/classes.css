@@ -46,6 +46,10 @@
     text-align: center;
 }
 
+#link-color {
+    color: #fff;
+}
+
 /* Portfolio Container */
 
 #portfolio-container {
