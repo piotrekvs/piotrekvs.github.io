@@ -100,6 +100,7 @@
 #portfolio-container .container .card .box:before {
     content: "";
     position: absolute;
+    z-index: 0;
     top: 0;
     left: 0;
     width: 50%;
@@ -126,4 +127,8 @@
     color: rgba(255, 255, 255, 0.9);
     z-index: 1;
     transition: 0.5s;
+}
+
+#portfolio-container .container .card .box .content {
+    z-index: 100;
 }
