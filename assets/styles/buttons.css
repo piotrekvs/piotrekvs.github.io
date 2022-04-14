@@ -1,0 +1,70 @@
+/* BUTTON PRIMARY */
+.button-primary {
+    background-color: var(--color-primary-three);
+    border: none;
+    border-radius: 2px;
+    color: var(--color-primary-four);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+}
+
+.button-primary:hover {
+    background-color: var(--color-primary-one);
+}
+
+/* .button-primary:focus {} */
+
+/* BUTTON SECONDARY */
+.button-secondary {
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    color: var(--color-light-two);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+}
+
+.button-secondary:hover {
+    color: var(--color-primary-four);
+}
+
+/* .button-secondary:focus {} */
+
+.icon-btn {
+    color: var(--color-light-two);
+    cursor: pointer;
+    font-size: 48px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+}
+
+.icon-btn:hover {
+    color: var(--color-primary-four);
+}
+
+.icon-upside-down {
+    /* flip vertically */
+    transform: scaleY(-1);
+}
