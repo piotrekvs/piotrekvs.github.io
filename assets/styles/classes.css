@@ -109,6 +109,7 @@
 }
 
 #portfolio-container .container .card .box .content {
+    z-index: 100;
     padding: 8px;
     text-align: center;
 }
@@ -127,8 +128,4 @@
     color: rgba(255, 255, 255, 0.9);
     z-index: 1;
     transition: 0.5s;
-}
-
-#portfolio-container .container .card .box .content {
-    z-index: 100;
 }
